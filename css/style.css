@@ -1,0 +1,124 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family:'Courier New', Courier, monospaceArial;
+    background-color: #f2efda;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+  
+.container{
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.intro-picture{
+    width: 100%;
+    height: auto;
+}
+
+.intro{
+    padding:24px;
+
+}
+
+h1{
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+.description{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.Preparation{
+    background: #cda7f90e;
+    padding:15px;
+    border-radius: 25px;
+
+    h2{
+           color:#80356d;
+ 
+    }
+}
+.Preparation ul{
+    border-bottom: none;
+
+
+}
+
+h2{
+    font-size:24px;
+    color:#80356d;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(134, 37, 1);
+
+  }
+
+  ul, ol {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    border-bottom: 1px solid #ddd;
+
+  }
+
+  .Instructions ul{
+    list-style: decimal;
+
+  }
+
+  .nutrition-table {
+    margin-top: 20px;
+    padding-top: 16px;
+  }
+
+  .nutrition-table table {
+    width: 100%;
+    font-size: 16px;
+    color: rgb(134, 37, 1);
+    text-align: left;
+    border-collapse: collapse;
+  }
+
+  .nutrition-table th, .nutrition-table td {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+
+  }
+
+  .nutrition-table th {
+    font-weight: bold;
+    color: #666;
+
+  }
+
+  .nutrition-table td {
+    text-align: right;
+    font-weight: bold;
+    color: rgb(134, 37, 1);
+
+  }
+
+
+
+
